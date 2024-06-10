@@ -1,0 +1,22 @@
+Reference:
+
+1. ytdl core example code: 
+https://singh-sandeep.medium.com/download-youtube-videos-from-node-js-3a0b05d42269
+
+
+
+Development Logs:
+1. Audiable videos are downloaded successfully -- downloaded
+DONE
+
+2. File name allocated following the video Id
+DONE
+
+3. Download bar in the frontend -- or any means to display when download is processed
+-- No NEED; It got around by another way setting res.attachment(`${videoId}.mp4`); to display the download process in the top of the browser
+
+4. Clear the input field after a download process is finished:
+-- question asked in StackOver Flow
+DONE
+Solved by modification on the client side with a setTimeout function.
+Automatically get cleared in 5 sec(5000). 
